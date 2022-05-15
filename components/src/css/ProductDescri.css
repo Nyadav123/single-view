@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.root{align-items: center;
+  height: 100vh;
+}
+.PerDetails{
+  background: rgb(245, 241, 241);
+}
+
+
+.leftdiv{
+
+  width: 30%;
+  height: 96vh;
+  background: white;
+  border-radius: 2rem;
+}
+.PerExsidenav{
+
+  /* position: relative;
+  left: 96.6%;
+  top: -50rem; */
+  float: right;
+  margin-top: -50rem;
+  background: rgb(71, 71, 211);
+  height:99vh;
+  width: 3rem;
+}
+.Perbuttons{
+  margin-top: 2rem;
+  display: flex;
+flex-direction: column;  
+row-gap: 7rem;
+}
+.Perbuttons :nth-child(1){
+  height: 3rem;
+  width: 3rem;
+  background: rgb(71, 71, 211);
+  background-image: url(./../images/Home\ \(1\).png);
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.Perbuttons :nth-child(2){
+  height: 3rem;
+  width: 3rem;
+  background-image: url(./../images/contact-book.png);
+
+  background-size: 100% 100%;
+
+  cursor: pointer;
+}
+.Perbuttons :nth-child(3){
+  height: 3rem;
+  width: 3rem;
+  background-image: url(./../images/settings\ \(1\).png);
+
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.Perbuttons :nth-child(4){
+  height: 3rem;
+  width: 3rem;
+  background-image: url(./../images/list.png);
+
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+
+.Divnav{
+  height: 30%;
+  width: 100%;
+  background: blue;
+  border-radius: 1rem;
+
+}
+.divPoster{position: relative;
+  left: 23%;
+  top: 50%;
+  height: 13rem;
+  width: 13rem;
+  background-image: url(./../images/Ellipse\ 4.png);
+  background-size: 100% 100%;
+}
+.Divtext{
+  position: relative;
+  top: 40%;line-height: 1.3rem;
+}
+.Divtext p{
+ padding-left: 1rem;
+}
+.divback{
+  font-weight: bold;
+  font-size: 1rem;
+  color: blue;
+  background: none;
+  border: none;
+  margin-left: 10rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+.midDiv{
+  width: 60%;
+  height: 94vh;
+  position: relative;
+margin-top: -47rem;
+  left: 31%;
+}
+
+.midDiv p{
+  width: 90%;
+  height: 6rem;
+  margin-top: 5rem;
+  background: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin-left: 2rem;
+
+}
+.midDiv button{
+  width: 6rem;
+  height: 1.5rem;
+  background: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+
+.img{border: 1px solid black;
+  height: 10rem;
+  width: 10rem;
+  background-image: url('https://picsum.photos/200/300');
+  margin: 1rem;
+}.ProductImg{
+  display: flex;
+}
+.Mobname{margin: 5rem;
+  width: 80%;
+  border: 2px solid black;
+}
+@media only screen and (max-width:1500px) and (min-width:550px){
+  
+  /* .mobnext{
+    display: none;
+  } */
+  .Prodmob{
+    display: none;
+  }
+
+  
+}
+@media(max-width:768px){
+  html{
+    font-size: 70%;
+  }
+
+  
+}
+
+@media only screen and (max-width: 550px) {
+  body {
+    background-color: white;
+ 
+  }
+ .PerDetails{
+    display: none;
+  }
+
+
+}

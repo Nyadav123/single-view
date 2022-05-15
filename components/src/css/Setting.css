@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.root{
+  align-items: center;
+  height: 100vh;
+ 
+}
+.StInteres{
+  background: blue;
+ margin-top: -1.8rem;
+ height: 100vh;
+}
+
+
+
+.StINPerExsidenav{
+
+  position: relative;
+  left: 96.6%;
+  top: -33rem;
+  background: rgb(71, 71, 211);
+  height: 91vh;
+  width: 3rem;
+}
+.StINPerbuttons{
+  margin-top: 2rem;
+  display: flex;
+flex-direction: column;  
+row-gap: 7rem;
+}
+.StINPerbuttons :nth-child(1){
+  height: 3rem;
+  width: 3rem;
+  background: rgb(71, 71, 211);
+  background-image: url(./../images/Home\ \(1\).png);
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.StINPerbuttons :nth-child(2){
+  height: 3rem;
+  width: 3rem;
+  background-image: url(./../images/contact-book.png);
+
+  background-size: 100% 100%;
+
+  cursor: pointer;
+}
+.StINPerbuttons :nth-child(3){
+  height: 3rem;
+  width: 3rem;
+  background-image: url(./../images/settings\ \(1\).png);
+
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.StINPerbuttons :nth-child(4){
+  height: 3rem;
+  width: 3rem;
+  background-image: url(./../images/list.png);
+
+  background-size: 100% 100%;
+  cursor: pointer;
+}
+.StInbox{
+  position: relative;
+  top: 25%;
+  left: 15%;
+ 
+  height: 65%;
+  width: 70%;
+  background: rgb(89, 89, 212);
+  border-radius: 1rem;
+}
+.Stinlogo{
+  height: 2rem;
+  width: 2rem;
+  background-image: url(./../images/image\ 3.png);
+  background-size: 100% 100%;
+  border-radius: 50%;
+  position: relative;
+  top: 10%;
+  left: 5%;
+
+}
+.StInbox p{
+  color: white;
+  font-weight: bold;
+  margin-left: 6rem;
+  margin-top: 2rem;
+}
+.StInposter{
+  height: 80%;
+  width: 50%;
+  background-image: url(./../images/inteposter.png);
+  background-size: 100% 100%;
+}
+.StInForm{
+  height: 80%;
+  width: 90%;
+  background: white;
+  border-radius: 2rem;
+  position: relative;
+  top:1rem;
+  left: 2rem;
+}
+.StInForm h3{
+  font-weight: bolder;
+  text-align: center;
+padding-top: 2rem;  
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.StInForm select{
+  width: 70%;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  height: 2rem;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.txtmob{
+  width: 60%;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  border: 2px solid black;
+  height: 10rem;
+}
+@media only screen and (max-width:1500px) and (min-width:550px){
+
+  .mobnext{
+    display: none;
+  }
+ /* *{
+   display: none;
+ } */
+  
+}
+@media(max-width:768px){
+  html{
+    font-size: 70%;
+  }
+  
+  
+}
+
+@media only screen and (max-width: 550px) {
+  body {
+    background-color: white;
+ 
+  }
+  .StInteres{
+    display: none;
+  }
+
+
+}
